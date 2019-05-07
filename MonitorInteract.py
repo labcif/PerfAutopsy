@@ -17,12 +17,12 @@ log_file = ""
 print("Current system: " + platform.system() + "\n")
 
 
-def __run_scripts(teste):
-    print("A correr o módulo " + teste + "\n")
+def __run_scripts(test):
+    print("Running module " + test + "\n")
     if platform.system() == "Linux" or platform.system() == "Darwin":
-        os.system("/usr/bin/actexec Script-m" + teste + ".ascr")
+        os.system("/usr/bin/actexec Script-m" + test + ".ascr")
     else:
-        os.system("actexec.exe Script-m" + teste + ".ascr")
+        os.system("actexec.exe Script-m" + test + ".ascr")
 
 
 def popup_error(msg):
@@ -30,13 +30,13 @@ def popup_error(msg):
     popup.wm_title("Error")
     label = ttk.Label(popup, text=msg, font="helvetica 16")
     label.pack(side="top", fill="x", pady=10)
-    B1 = ttk.Button(popup, text="Okay", command=popup.destroy)
+    B1 = ttk.Button(popup, text="OK", command=popup.destroy)
     B1.pack()
     popup.mainloop()
 
 
 def printOptions():
-    testes = [x.upper() for x in v.get()]
+    tests = [x.upper() for x in v.get()]
 
     if len(log_file) == 0:
         popup_error("You must choose a log file!")
@@ -44,13 +44,13 @@ def printOptions():
     if len(v.get()) == 0:
         popup_error("Your must choose some tests to run!")
 
-    for t in testes:
+    for t in tests:
         if not ord(t) in range(ord('A'), ord('N') + 1):
             popup_error("Only letters from A to N!")
 
     counter = 0
 
-    for test in testes:
+    for test in tests:
 
         __run_scripts(test)
 
@@ -65,7 +65,7 @@ def printOptions():
                 "findstr /S /c:\"IngestManager startIngestJob\" " + log_file + " > timestamp_start_module_" + str(
                     test) + ".txt")
 
-        while counter != (testes.index(test) + 1):
+        while counter != (tests.index(test) + 1):
 
             if platform.system() == "Linux" or platform.system() == "Darwin":
                 os.system("grep -c \"IngestManager finishIngestJob\" " + log_file + " > counter.txt")
@@ -86,11 +86,8 @@ def printOptions():
                     "findstr /S /c:\"IngestManager finishIngestJob\" " + log_file + " > timestamp_end_module_" +
                     str(test) + ".txt")
 
-            print("Contador: ", counter, "; Atual: ",
-                  (testes.index(test) + 1))
-
-            if counter != (testes.index(test) + 1):
-                print("Em espera.\n")
+            if counter != (tests.index(test) + 1):
+                print("Pausing 300s.\n")
                 time.sleep(300)
 
 
@@ -110,10 +107,10 @@ topFrame.pack()
 bottomframe = Frame(window)
 bottomframe.pack(side=BOTTOM)
 
-title = Label(window, text="Choose the Ingests you want to run, the order counts", font="helvetica 15", padx=50,
+title = Label(window, text="Choose the Ingest Modules you want to run, order counts.", font="helvetica 15", padx=50,
               pady=20)
 label = Label(window,
-              text="A - Hash Lookup\nB - File Tyle Identification\nC - Extension Mismatch Detector\nD - Embedded File "
+              text="A - Hash Lookup\nB - File Type Identification\nC - Extension Mismatch Detector\nD - Embedded File "
                    "Extractor\nE - Exif Parser\nF - Keyword Search\nG - Email Parser\nH - Encryption Detection\nI - "
                    "Interesting Files Identifier\nJ - Correlation Engine\nK - PhotoRec Carver\nL - Virtual Machine "
                    "Extractor\nM - Data Source Integrity\nN - Android Analyzer",
