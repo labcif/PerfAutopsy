@@ -1,0 +1,5 @@
+Correr script feito no ACTIONA
+
+/usr/bin/actexec Script\ de\ Inicio.ascr
+
+/usr/bin/actexec Script\ M1.ascr

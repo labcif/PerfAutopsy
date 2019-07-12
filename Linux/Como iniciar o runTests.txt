@@ -1,0 +1,3 @@
+Garantir que no existe o ficheiro FinishedFile.txt
+Abrir o terminal na pasta onde est o script e digitar o seguinte:
+'python3 runTest_V4.py [numero de testes]'

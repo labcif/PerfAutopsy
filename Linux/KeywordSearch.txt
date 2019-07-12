@@ -1,0 +1,12 @@
+Inicio 2019-05-18 09:27:16.071
+
+Terminou 2019-05-19 11:15:29.08
+
+demorou 1 dia, 1 hora, 48 minutos e 13 segundos
+
+outro teste
+
+Inicio 2019-05-21 16:31:41
+
+Terminou 1st stage 2019-05-21 20:43:39
+Terminou 2019-05-22 19:19:13

@@ -1,0 +1,254 @@
+2019-04-17 01:37:19.65 org.sleuthkit.autopsy.keywordsearch.Server isRunning
+INFO: Solr server is running
+2019-04-17 01:37:20.804 org.sleuthkit.autopsy.casemodule.Case openAsCurrentCase
+INFO: Opened x (x_20190417_013718) in /home/autopsy1/Documentos/TestesAutopsy/x as the current case
+2019-04-17 01:37:20.951 org.sleuthkit.autopsy.imagegallery.PerCaseProperties getConfigSetting
+INFO: File did not exist. Created file [Image Gallery.properties]
+2019-04-17 01:37:21.161 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB setPragmas
+INFO: sqlite-jdbc version 3.7.8 loaded in native mode
+2019-04-17 01:37:21.316 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Correlation Engine, version = 4.10.0
+2019-04-17 01:37:21.321 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Data Source Integrity, version = 4.10.0
+2019-04-17 01:37:21.326 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Embedded File Extractor, version = 4.10.0
+2019-04-17 01:37:21.332 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Encryption Detection, version = 4.10.0
+2019-04-17 01:37:21.337 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Exif Parser, version = 4.10.0
+2019-04-17 01:37:21.343 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Extension Mismatch Detector, version = 4.10.0
+2019-04-17 01:37:21.348 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = File Type Identification, version = 4.10.0
+2019-04-17 01:37:21.353 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Hash Lookup, version = 4.10.0
+2019-04-17 01:37:21.358 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Interesting Files Identifier, version = 4.10.0
+2019-04-17 01:37:21.363 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = PhotoRec Carver, version = 7.0
+2019-04-17 01:37:21.368 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Virtual Machine Extractor, version = 4.10.0
+2019-04-17 01:37:21.369 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Keyword Search, version = 4.10.0
+2019-04-17 01:37:21.371 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Email Parser, version = 4.10.0
+2019-04-17 01:37:21.372 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Recent Activity, version = 4.10.0
+2019-04-17 01:37:29.314 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Android Analyzer, version = 4.10.0
+2019-04-17 01:38:24.548 org.sleuthkit.autopsy.casemodule.AddImageTask runAddImageProcess
+WARNING: Non-critical error occurred adding image /home/autopsy1/Desktop/Imagem/Forensic Image Files/LoneWolf.E01
+org.sleuthkit.datamodel.TskDataException: Errors occurred while ingesting image 
+1. Cannot determine file system type (Sector offset: 1226752, Partition Type: Microsoft reserved partition) 
+
+	org.sleuthkit.datamodel.SleuthkitJNI.runAddImgNat(Native Method)
+	org.sleuthkit.datamodel.SleuthkitJNI.access$1400(SleuthkitJNI.java:48)
+	org.sleuthkit.datamodel.SleuthkitJNI$CaseDbHandle$AddImageProcess.run(SleuthkitJNI.java:337)
+	org.sleuthkit.autopsy.casemodule.AddImageTask.runAddImageProcess(AddImageTask.java:196)
+	org.sleuthkit.autopsy.casemodule.AddImageTask.run(AddImageTask.java:145)
+	java.lang.Thread.run(Thread.java:748)
+2019-04-17 01:38:24.83 org.sleuthkit.autopsy.ingest.IngestPipelinesConfiguration getInstance
+INFO: Creating ingest module loader instance
+2019-04-17 01:38:24.973 org.sleuthkit.autopsy.corecomponents.DataContentTopComponent findInstance
+WARNING: Cannot find DataContentTopComponent component. It will not be located properly in the window system.
+2019-04-17 01:38:56.091 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Correlation Engine, version = 4.10.0
+2019-04-17 01:38:56.091 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Data Source Integrity, version = 4.10.0
+2019-04-17 01:38:56.091 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Embedded File Extractor, version = 4.10.0
+2019-04-17 01:38:56.092 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Encryption Detection, version = 4.10.0
+2019-04-17 01:38:56.092 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Exif Parser, version = 4.10.0
+2019-04-17 01:38:56.092 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Extension Mismatch Detector, version = 4.10.0
+2019-04-17 01:38:56.092 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = File Type Identification, version = 4.10.0
+2019-04-17 01:38:56.093 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Hash Lookup, version = 4.10.0
+2019-04-17 01:38:56.093 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Interesting Files Identifier, version = 4.10.0
+2019-04-17 01:38:56.094 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = PhotoRec Carver, version = 7.0
+2019-04-17 01:38:56.094 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Virtual Machine Extractor, version = 4.10.0
+2019-04-17 01:38:56.094 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Keyword Search, version = 4.10.0
+2019-04-17 01:38:56.094 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Email Parser, version = 4.10.0
+2019-04-17 01:38:56.094 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Recent Activity, version = 4.10.0
+2019-04-17 01:38:56.19 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Android Analyzer, version = 4.10.0
+2019-04-17 01:38:59.773 org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMonitoredRootDirectory
+INFO: Monitoring disk space of /
+2019-04-17 01:39:00.138 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer loadConfigFile
+INFO: Load successful
+2019-04-17 01:39:00.218 org.sleuthkit.autopsy.ingest.DataSourceIngestJob start
+INFO: Starting first stage analysis for LoneWolf.E01 (jobId=1)
+2019-04-17 01:39:00.219 org.sleuthkit.autopsy.ingest.DataSourceIngestJob startFirstStage
+INFO: Scheduling first stage data source level analysis tasks for LoneWolf.E01 (jobId=1), no file level analysis configured
+2019-04-17 01:39:00.221 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Recent Activity analysis of LoneWolf.E01 (jobId=1) starting
+2019-04-17 01:39:00.224 org.sleuthkit.autopsy.ingest.IngestManager startIngestJob
+INFO: Ingest job 1 started
+2019-04-17 01:39:00.5 org.sleuthkit.autopsy.recentactivity.Chrome getHistory
+INFO: Chrome- Now getting history from /home/autopsy1/Documentos/TestesAutopsy/x/Temp/RecentActivity/chrome/History0.db with 2.293artifacts identified.
+2019-04-17 01:39:29.53 org.sleuthkit.autopsy.recentactivity.Chrome getBookmark
+INFO: Chrome- Now getting Bookmarks from /home/autopsy1/Documentos/TestesAutopsy/x/Temp/RecentActivity/chrome/Bookmarks1.db
+2019-04-17 01:39:29.743 org.sleuthkit.autopsy.recentactivity.Chrome getCookie
+INFO: Chrome- Now getting cookies from /home/autopsy1/Documentos/TestesAutopsy/x/Temp/RecentActivity/chrome/Cookies1.db with 2.953artifacts identified.
+2019-04-17 01:39:57.422 org.sleuthkit.autopsy.recentactivity.Chrome getLogin
+INFO: Didn't find any Chrome signon files.
+2019-04-17 01:39:57.595 org.sleuthkit.autopsy.recentactivity.Chrome getDownload
+INFO: Chrome- Now getting downloads from /home/autopsy1/Documentos/TestesAutopsy/x/Temp/RecentActivity/chrome/History1.db with 21artifacts identified.
+2019-04-17 01:40:01.335 org.sleuthkit.autopsy.recentactivity.Firefox getHistory
+INFO: No FireFox history files found.
+2019-04-17 01:40:01.495 org.sleuthkit.autopsy.recentactivity.Firefox getBookmark
+INFO: Didn't find any firefox bookmark files.
+2019-04-17 01:40:01.658 org.sleuthkit.autopsy.recentactivity.Firefox getDownloadPreVersion24
+INFO: Didn't find any pre-version-24.0 Firefox download files.
+2019-04-17 01:40:01.822 org.sleuthkit.autopsy.recentactivity.Firefox getDownloadVersion24
+INFO: Didn't find any version-24.0 Firefox download files.
+2019-04-17 01:40:01.982 org.sleuthkit.autopsy.recentactivity.Firefox getCookie
+INFO: Didn't find any Firefox cookie files.
+2019-04-17 01:40:02.406 org.sleuthkit.autopsy.recentactivity.ExtractIE getCookie
+INFO: Didn't find any IE cookies files.
+2019-04-17 01:40:02.407 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: Pasco results path: /home/autopsy1/Documentos/TestesAutopsy/x/Temp/RecentActivity/IE/results
+2019-04-17 01:40:02.407 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: Pasco2 home: /home/autopsy1/autopsy-4.10.0/autopsy/pasco2
+2019-04-17 01:40:02.57 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: /home/autopsy1/Documentos/TestesAutopsy/x/Temp/RecentActivity/IE/results/pasco2Result.80549.txt
+2019-04-17 01:40:10.876 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer findSearchQueries
+INFO: Processing 2.294 blackboard artifacts.
+2019-04-17 01:40:13.694 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer findSearchQueries
+INFO: Extracted 231 queries from the blackboard
+2019-04-17 01:40:13.696 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer process
+INFO: Search Engine stats: 
+Google : 230
+Yahoo : 0
+Twitter : 1
+LinkedIn : 0
+Facebook : 0
+Bing : 0
+Baidu : 0
+Sogou : 0
+Soso : 0
+Youdao : 0
+Yandex : 0
+Biglobe : 0
+Linkestan : 0
+Parseek : 0
+Parset : 0
+
+2019-04-17 01:40:14.528 org.sleuthkit.autopsy.recentactivity.ExtractRegistry analyzeRegistryFiles
+INFO: Registry- Now getting registry information from /home/autopsy1/Documentos/TestesAutopsy/x/Temp/RecentActivity/reg/NTUSER.DAT
+2019-04-17 01:40:14.529 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing RegRipper results to: /home/autopsy1/Documentos/TestesAutopsy/x/ModuleOutput/RecentActivity/reg/NTUSER.DAT-regripper-53203-autopsy.txt
+2019-04-17 01:40:14.534 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing Full RegRipper results to: /home/autopsy1/Documentos/TestesAutopsy/x/ModuleOutput/RecentActivity/reg/NTUSER.DAT-regripper-53203-full.txt
+2019-04-17 01:40:14.539 org.sleuthkit.autopsy.recentactivity.RAImageIngestModule process
+SEVERE: Exception occurred in Registry
+java.util.NoSuchElementException
+	java.util.Scanner.throwFor(Scanner.java:862)
+	java.util.Scanner.next(Scanner.java:1371)
+	org.sleuthkit.autopsy.recentactivity.ExtractRegistry.parseAutopsyPluginOutput(ExtractRegistry.java:357)
+	org.sleuthkit.autopsy.recentactivity.ExtractRegistry.analyzeRegistryFiles(ExtractRegistry.java:222)
+	org.sleuthkit.autopsy.recentactivity.ExtractRegistry.process(ExtractRegistry.java:789)
+	org.sleuthkit.autopsy.recentactivity.RAImageIngestModule.process(RAImageIngestModule.java:112)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$PipelineModule.process(DataSourceIngestPipeline.java:206)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline.process(DataSourceIngestPipeline.java:113)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestJob.process(DataSourceIngestJob.java:743)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestTask.execute(DataSourceIngestTask.java:30)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:880)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2019-04-17 01:40:14.548 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer complete
+INFO: Search Engine URL Query Analyzer has completed.
+2019-04-17 01:40:14.548 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Recent Activity analysis of LoneWolf.E01 (jobId=1) finished
+2019-04-17 01:40:14.55 org.sleuthkit.autopsy.ingest.DataSourceIngestJob finishFirstStage
+INFO: Finished first stage analysis for LoneWolf.E01 (jobId=1)
+2019-04-17 01:40:14.563 org.sleuthkit.autopsy.ingest.DataSourceIngestJob finish
+INFO: Finished analysis for LoneWolf.E01 (jobId=1)
+2019-04-17 01:40:14.567 org.sleuthkit.autopsy.ingest.IngestManager finishIngestJob
+INFO: Ingest job 1 completed
+2019-04-17 01:44:17.401 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Correlation Engine, version = 4.10.0
+2019-04-17 01:44:17.403 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Data Source Integrity, version = 4.10.0
+2019-04-17 01:44:17.403 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Embedded File Extractor, version = 4.10.0
+2019-04-17 01:44:17.403 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Encryption Detection, version = 4.10.0
+2019-04-17 01:44:17.403 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Exif Parser, version = 4.10.0
+2019-04-17 01:44:17.403 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Extension Mismatch Detector, version = 4.10.0
+2019-04-17 01:44:17.403 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = File Type Identification, version = 4.10.0
+2019-04-17 01:44:17.404 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Hash Lookup, version = 4.10.0
+2019-04-17 01:44:17.404 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Interesting Files Identifier, version = 4.10.0
+2019-04-17 01:44:17.404 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = PhotoRec Carver, version = 7.0
+2019-04-17 01:44:17.404 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Virtual Machine Extractor, version = 4.10.0
+2019-04-17 01:44:17.404 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Keyword Search, version = 4.10.0
+2019-04-17 01:44:17.404 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Email Parser, version = 4.10.0
+2019-04-17 01:44:17.404 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Recent Activity, version = 4.10.0
+2019-04-17 01:44:17.49 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Android Analyzer, version = 4.10.0
+2019-04-17 01:44:20.631 org.sleuthkit.autopsy.ingest.DataSourceIngestJob start
+INFO: Starting first stage analysis for LoneWolf.E01 (jobId=2)
+2019-04-17 01:44:21.012 org.sleuthkit.autopsy.ingest.DataSourceIngestJob startFirstStage
+INFO: Scheduling file level analysis tasks for LoneWolf.E01 (jobId=2), no first stage data source level analysis configured
+2019-04-17 01:44:21.092 org.sleuthkit.autopsy.ingest.IngestManager startIngestJob
+INFO: Ingest job 2 started
+2019-04-17 01:44:34.034 org.sleuthkit.autopsy.modules.hashdatabase.HashDbIngestModule process
+WARNING: Error calculating hash of file 'SyncEngine-2018-4-5.150.13144.22.odl' (id=73277).
+org.sleuthkit.datamodel.ReadContentInputStream$ReadContentInputStreamException: Error reading file 'SyncEngine-2018-4-5.150.13144.22.odl' (id=73277) at offset 0.
+	org.sleuthkit.datamodel.ReadContentInputStream.read(ReadContentInputStream.java:105)
+	org.sleuthkit.datamodel.ReadContentInputStream.read(ReadContentInputStream.java:47)
+	org.sleuthkit.datamodel.HashUtility.calculateMd5Hash(HashUtility.java:52)
+	org.sleuthkit.autopsy.modules.hashdatabase.HashDbIngestModule.process(HashDbIngestModule.java:211)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$PipelineModule.process(FileIngestPipeline.java:230)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline.process(FileIngestPipeline.java:129)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestJob.process(DataSourceIngestJob.java:806)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:44)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:880)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+org.sleuthkit.datamodel.TskCoreException: Error extracting file from image (ntfs_uncompress_compunit: Phrase token offset is too large:  14 (max: 10)) (145159 - type: 128  id: 4  Status: Deleted)
+	org.sleuthkit.datamodel.ReadContentInputStream.read(ReadContentInputStream.java:105)
+	org.sleuthkit.datamodel.ReadContentInputStream.read(ReadContentInputStream.java:47)
+	org.sleuthkit.datamodel.HashUtility.calculateMd5Hash(HashUtility.java:52)
+	org.sleuthkit.autopsy.modules.hashdatabase.HashDbIngestModule.process(HashDbIngestModule.java:211)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$PipelineModule.process(FileIngestPipeline.java:230)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline.process(FileIngestPipeline.java:129)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestJob.process(DataSourceIngestJob.java:806)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:44)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:880)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2019-04-17 01:59:06.482 org.sleuthkit.autopsy.ingest.DataSourceIngestJob finishFirstStage
+INFO: Finished first stage analysis for LoneWolf.E01 (jobId=2)
+2019-04-17 01:59:06.482 org.sleuthkit.autopsy.ingest.DataSourceIngestJob finish
+INFO: Finished analysis for LoneWolf.E01 (jobId=2)
+2019-04-17 01:59:06.518 org.sleuthkit.autopsy.ingest.IngestManager finishIngestJob
+INFO: Ingest job 2 completed

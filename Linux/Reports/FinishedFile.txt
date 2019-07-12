@@ -1,0 +1,21 @@
+os 4 primeiros módulos 
+
+2019-04-17 13:53:59.25 org.sleuthkit.autopsy.ingest.DataSourceIngestJob startFirstStage
+2019-04-17 13:59:20.029 org.sleuthkit.autopsy.ingest.DataSourceIngestJob startFirstStage
+2019-04-17 14:14:51.077 org.sleuthkit.autopsy.ingest.DataSourceIngestJob startFirstStage
+2019-04-17 14:25:16.585 org.sleuthkit.autopsy.ingest.DataSourceIngestJob startFirstStage
+2019-04-17 13:55:13.7 org.sleuthkit.autopsy.ingest.DataSourceIngestJob finishFirstStage
+2019-04-17 14:13:31.695 org.sleuthkit.autopsy.ingest.DataSourceIngestJob finishFirstStage
+2019-04-17 14:21:58.525 org.sleuthkit.autopsy.ingest.DataSourceIngestJob finishFirstStage
+2019-04-17 14:26:27.512 org.sleuthkit.autopsy.ingest.DataSourceIngestJob finishFirstStage
+
+
+
+2019-04-17 13:53:59.25 org.sleuthkit.autopsy.ingest.DataSourceIngestJob startFirstStage
+2019-04-17 13:59:20.029 org.sleuthkit.autopsy.ingest.DataSourceIngestJob startFirstStage
+2019-04-17 14:14:51.077 org.sleuthkit.autopsy.ingest.DataSourceIngestJob startFirstStage
+2019-04-17 14:25:16.585 org.sleuthkit.autopsy.ingest.DataSourceIngestJob startFirstStage
+2019-04-17 13:55:13.7 org.sleuthkit.autopsy.ingest.DataSourceIngestJob finishFirstStage
+2019-04-17 14:13:31.695 org.sleuthkit.autopsy.ingest.DataSourceIngestJob finishFirstStage
+2019-04-17 14:21:58.525 org.sleuthkit.autopsy.ingest.DataSourceIngestJob finishFirstStage
+2019-04-17 14:26:27.512 org.sleuthkit.autopsy.ingest.DataSourceIngestJob finishFirstStage
