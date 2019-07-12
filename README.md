@@ -6,9 +6,7 @@ This script is written in Python and its purpose is to automate tests in the dig
 
 ## Requirements
 
-```
-[Python](https://www.python.org/downloads/) with TKinter
-```
+* [Python](https://www.python.org/downloads/) with TKinter
 
 ### Running
 
