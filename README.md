@@ -10,23 +10,23 @@ The file "PreSelected.py" is the same as the PerAutopsy just have the dropdowns 
 "Start.ascr" file is an actiona script configured to open Autopsy and create a new case. It was used in the firsts versions.
 
 Modules:
-1-Recent Activity
-2-Hash Lookup
-3-File Type Identification
-4-Extension Mismatch Detector
-5-Embedded File Extractor
-6-Exif Parser
-7-Keyworkd Search
-8-Email Parser
-9-Encrytion Detection
-10-Interesting Files Identifier
-11-Correlation Engine
-12-PhotoRec Carver
-13-Virtual Machine Extractor
-14-Data Source Integrity
-15-Android Analyser
+1-Recent Activity  
+2-Hash Lookup  
+3-File Type Identification  
+4-Extension Mismatch Detector  
+5-Embedded File Extractor  
+6-Exif Parser  
+7-Keyworkd Search  
+8-Email Parser  
+9-Encrytion Detection  
+10-Interesting Files Identifier  
+11-Correlation Engine  
+12-PhotoRec Carver  
+13-Virtual Machine Extractor  
+14-Data Source Integrity  
+15-Android Analyser  
 
-## Requirements
+## Requirements  
 
 * [Python](https://www.python.org/downloads/) with
 TKinter (sudo apt-get install python3-tk)
