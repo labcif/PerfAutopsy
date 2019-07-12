@@ -167,15 +167,15 @@ choices = ["0 - Recent Activity",
 
 
 #  preciso todo este codigo repetido porque senao os dropdown mudam todos ao selecionar cada um deles
-tkvar.set('None') # set the default option
-tkvar2.set('None')
-tkvar3.set('None')
-tkvar4.set('None')
-tkvar5.set('None')
-tkvar6.set('None')
-tkvar7.set('None')
-tkvar8.set('None')
-tkvar9.set('None')
+tkvar.set(choices[13]) # set the default option
+tkvar2.set(choices[11])
+tkvar3.set(choices[9])
+tkvar4.set(choices[2])
+tkvar5.set(choices[7])
+tkvar6.set(choices[3])
+tkvar7.set(choices[0])
+tkvar8.set(choices[4])
+tkvar9.set(choices[6])
 tkvar10.set('None')
 tkvar11.set('None')
 tkvar12.set('None')

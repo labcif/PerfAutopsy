@@ -18,18 +18,18 @@
                 <subParameter name="value" code="0"></subParameter>
                 <subParameter name="unit" code="0">0</subParameter>
             </parameter>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
             <parameter name="action">
                 <subParameter name="value" code="0">pressRelease</subParameter>
             </parameter>
             <parameter name="position">
                 <subParameter name="value" code="0">756:317</subParameter>
                 <subParameter name="unit" code="0">0</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
-            </parameter>
-            <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
             </parameter>
         </action>
         <action name="ActionKey" comment="Abrir Tools" pauseBefore="1000" pauseAfter="500">
@@ -38,30 +38,30 @@
             <exception id="1" action="0" line=""/>
             <exception id="0" action="0" line=""/>
             <exception id="2" action="1" line=""/>
-            <parameter name="action">
-                <subParameter name="value" code="0">pressRelease</subParameter>
-            </parameter>
-            <parameter name="type">
-                <subParameter name="value" code="0">Win32</subParameter>
-            </parameter>
-            <parameter name="shift">
-                <subParameter name="value" code="0">false</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
+            <parameter name="alt">
+                <subParameter name="value" code="0">true</subParameter>
             </parameter>
             <parameter name="ctrl">
                 <subParameter name="value" code="0">false</subParameter>
             </parameter>
-            <parameter name="key">
-                <subParameter name="isQtKey" code="0">true</subParameter>
-                <subParameter name="key" code="0">T</subParameter>
+            <parameter name="shift">
+                <subParameter name="value" code="0">false</subParameter>
             </parameter>
-            <parameter name="alt">
-                <subParameter name="value" code="0">true</subParameter>
+            <parameter name="key">
+                <subParameter name="key" code="0">T</subParameter>
+                <subParameter name="isQtKey" code="0">true</subParameter>
             </parameter>
             <parameter name="pause">
                 <subParameter name="value" code="0">500</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">Win32</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
             </parameter>
             <parameter name="meta">
                 <subParameter name="value" code="0">false</subParameter>
@@ -73,30 +73,30 @@
             <exception id="1" action="0" line=""/>
             <exception id="0" action="0" line=""/>
             <exception id="2" action="1" line=""/>
-            <parameter name="action">
-                <subParameter name="value" code="0">pressRelease</subParameter>
-            </parameter>
-            <parameter name="type">
-                <subParameter name="value" code="0">Win32</subParameter>
-            </parameter>
-            <parameter name="shift">
+            <parameter name="alt">
                 <subParameter name="value" code="0">false</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">5</subParameter>
             </parameter>
             <parameter name="ctrl">
                 <subParameter name="value" code="0">false</subParameter>
             </parameter>
-            <parameter name="key">
-                <subParameter name="isQtKey" code="0">true</subParameter>
-                <subParameter name="key" code="0">Down</subParameter>
-            </parameter>
-            <parameter name="alt">
+            <parameter name="shift">
                 <subParameter name="value" code="0">false</subParameter>
+            </parameter>
+            <parameter name="key">
+                <subParameter name="key" code="0">Down</subParameter>
+                <subParameter name="isQtKey" code="0">true</subParameter>
             </parameter>
             <parameter name="pause">
                 <subParameter name="value" code="0">100</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">5</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">Win32</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
             </parameter>
             <parameter name="meta">
                 <subParameter name="value" code="0">false</subParameter>
@@ -108,30 +108,30 @@
             <exception id="1" action="0" line=""/>
             <exception id="0" action="0" line=""/>
             <exception id="2" action="1" line=""/>
-            <parameter name="action">
-                <subParameter name="value" code="0">pressRelease</subParameter>
-            </parameter>
-            <parameter name="type">
-                <subParameter name="value" code="0">Win32</subParameter>
-            </parameter>
-            <parameter name="shift">
+            <parameter name="alt">
                 <subParameter name="value" code="0">false</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="ctrl">
                 <subParameter name="value" code="0">false</subParameter>
             </parameter>
-            <parameter name="key">
-                <subParameter name="isQtKey" code="0">true</subParameter>
-                <subParameter name="key" code="0">Return</subParameter>
-            </parameter>
-            <parameter name="alt">
+            <parameter name="shift">
                 <subParameter name="value" code="0">false</subParameter>
+            </parameter>
+            <parameter name="key">
+                <subParameter name="key" code="0">Return</subParameter>
+                <subParameter name="isQtKey" code="0">true</subParameter>
             </parameter>
             <parameter name="pause">
                 <subParameter name="value" code="0">10</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">Win32</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
             </parameter>
             <parameter name="meta">
                 <subParameter name="value" code="0">false</subParameter>
@@ -143,30 +143,30 @@
             <exception id="1" action="0" line=""/>
             <exception id="0" action="0" line=""/>
             <exception id="2" action="1" line=""/>
-            <parameter name="action">
-                <subParameter name="value" code="0">pressRelease</subParameter>
-            </parameter>
-            <parameter name="type">
-                <subParameter name="value" code="0">Win32</subParameter>
-            </parameter>
-            <parameter name="shift">
+            <parameter name="alt">
                 <subParameter name="value" code="0">false</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="ctrl">
                 <subParameter name="value" code="0">false</subParameter>
             </parameter>
-            <parameter name="key">
-                <subParameter name="isQtKey" code="0">true</subParameter>
-                <subParameter name="key" code="0">Down</subParameter>
-            </parameter>
-            <parameter name="alt">
+            <parameter name="shift">
                 <subParameter name="value" code="0">false</subParameter>
+            </parameter>
+            <parameter name="key">
+                <subParameter name="key" code="0">Down</subParameter>
+                <subParameter name="isQtKey" code="0">true</subParameter>
             </parameter>
             <parameter name="pause">
                 <subParameter name="value" code="0">10</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">Win32</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
             </parameter>
             <parameter name="meta">
                 <subParameter name="value" code="0">false</subParameter>
@@ -178,30 +178,30 @@
             <exception id="1" action="0" line=""/>
             <exception id="0" action="0" line=""/>
             <exception id="2" action="1" line=""/>
-            <parameter name="action">
-                <subParameter name="value" code="0">pressRelease</subParameter>
-            </parameter>
-            <parameter name="type">
-                <subParameter name="value" code="0">Win32</subParameter>
-            </parameter>
-            <parameter name="shift">
+            <parameter name="alt">
                 <subParameter name="value" code="0">false</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="ctrl">
                 <subParameter name="value" code="0">false</subParameter>
             </parameter>
-            <parameter name="key">
-                <subParameter name="isQtKey" code="0">true</subParameter>
-                <subParameter name="key" code="0">Return</subParameter>
-            </parameter>
-            <parameter name="alt">
+            <parameter name="shift">
                 <subParameter name="value" code="0">false</subParameter>
+            </parameter>
+            <parameter name="key">
+                <subParameter name="key" code="0">Return</subParameter>
+                <subParameter name="isQtKey" code="0">true</subParameter>
             </parameter>
             <parameter name="pause">
                 <subParameter name="value" code="0">10</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">Win32</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
             </parameter>
             <parameter name="meta">
                 <subParameter name="value" code="0">false</subParameter>
@@ -217,6 +217,12 @@
                 <subParameter name="value" code="0"></subParameter>
                 <subParameter name="unit" code="0">0</subParameter>
             </parameter>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
             <parameter name="action">
                 <subParameter name="value" code="0">pressRelease</subParameter>
             </parameter>
@@ -224,14 +230,8 @@
                 <subParameter name="value" code="0">909:741</subParameter>
                 <subParameter name="unit" code="0">0</subParameter>
             </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
-            </parameter>
-            <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
-            </parameter>
         </action>
-        <action name="ActionClick" comment="PhotoRec" pauseBefore="800" pauseAfter="800" timeout="300">
+        <action name="ActionClick" comment="Correlation Eng" pauseBefore="800" pauseAfter="800" timeout="300">
             <exception id="33" action="0" line=""/>
             <exception id="32" action="0" line=""/>
             <exception id="1" action="0" line=""/>
@@ -241,18 +241,18 @@
                 <subParameter name="value" code="0"></subParameter>
                 <subParameter name="unit" code="0">0</subParameter>
             </parameter>
-            <parameter name="action">
-                <subParameter name="value" code="0">pressRelease</subParameter>
-            </parameter>
-            <parameter name="position">
-                <subParameter name="value" code="0">792:608</subParameter>
-                <subParameter name="unit" code="0">0</subParameter>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
             </parameter>
             <parameter name="amount">
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
-            <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="value" code="0">791:589</subParameter>
+                <subParameter name="unit" code="0">0</subParameter>
             </parameter>
         </action>
         <action name="ActionClick" comment="Finish">
@@ -265,18 +265,18 @@
                 <subParameter name="value" code="0"></subParameter>
                 <subParameter name="unit" code="0">0</subParameter>
             </parameter>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
             <parameter name="action">
                 <subParameter name="value" code="0">pressRelease</subParameter>
             </parameter>
             <parameter name="position">
                 <subParameter name="value" code="0">1212:835</subParameter>
                 <subParameter name="unit" code="0">0</subParameter>
-            </parameter>
-            <parameter name="amount">
-                <subParameter name="value" code="0">1</subParameter>
-            </parameter>
-            <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
             </parameter>
         </action>
     </script>
