@@ -3,13 +3,13 @@ Performance of Autopsy Software
 
 This script is written in Python and its purpose is to automate tests in the digital forensics platform and graphical interface to The Sleuth Kit, Autopsy.
 
-The output is a text file named "resultados" in the same location as the python file.
-Folders "Linux" and "Windows" contains actiona scripts, it may need to be reconfigured due to different screen resolutions.
-The file "PreSelected.py" is the same as the PerAutopsy just have the dropdowns with a pre-selected test.
+The output is a text file named "resultados" in the same location as the python file.  
+Folders "Linux" and "Windows" contains actiona scripts, it may need to be reconfigured due to different screen resolutions.  
+The file "PreSelected.py" is the same as the PerAutopsy just have the dropdowns with a pre-selected test.  
 
-"Start.ascr" file is an actiona script configured to open Autopsy and create a new case. It was used in the firsts versions.
+"Start.ascr" file is an actiona script configured to open Autopsy and create a new case. It was used in the firsts versions.  
 
-Modules:
+Modules:  
 1-Recent Activity  
 2-Hash Lookup  
 3-File Type Identification  
@@ -28,12 +28,12 @@ Modules:
 
 ## Requirements  
 
-* [Python](https://www.python.org/downloads/) with
+* [Python](https://www.python.org/downloads/) with  
 TKinter (sudo apt-get install python3-tk)
 
 ### Running
 
-To run the script, simply open a terminal and run:
+To run the script, simply open a terminal and run:  
 
 ```
 python3 PerfAutopsy.py
