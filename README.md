@@ -37,9 +37,14 @@ To run the script, simply open a terminal and run:
 
 ```
 python3 PerfAutopsy.py
-recommended on linux:
+```
+§
+In linux we recommend the usage of sudo:
+
+```
 sudo python3 PerfAutopsy.py
 ```
+
 
 ## Authors
 
