@@ -16,4 +16,8 @@ To run the script, simply open a terminal and run:
 python3 PerfAutopsy.py
 ```
 
+## Authors
+
+* **António Silva** 
+* **Leandro Antunes** 
 
